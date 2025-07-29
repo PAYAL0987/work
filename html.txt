@@ -1,0 +1,13 @@
+What is html
+.HTML  is the for stand hyper text Markup languarg
+.HTML is the  standards Markup languarg creating web pages
+HTML  describe the structurs of a web pages 
+.HTML is consistance of a series of elements 
+.HTML  is elements tell the borwser how to display the  content
+.HTML elements lables pices od contants such as this heading this is a garagraph this  is a linlk  etc
+
+# HTML ATTRIBUTES 
+.All HTML elements can have attributes 
+. Attributes provides addtitions informations about elements
+.Attributes are always specified in the the start tags
+. Attributes usually come in names value paris like name values
