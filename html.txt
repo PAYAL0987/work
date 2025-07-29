@@ -14,3 +14,38 @@ HTML  describe the structurs of a web pages
 
 THE src Attributes
 the <img> tag is used to emble an image in an HTML pages the arc attributes specified the path to the imges to be a display 
+
+The width and height attributes
+the <img> should also contain the width  and height attributes,which specified the width & height of the  image
+
+The all attributes
+The requrid alt attributes for the <img> specified an alternate text foe an imges if the image for some reason cannot be display this can 
+be due to a slow connections or error in the src attributes or if the user a screen reader
+
+The style attributes
+the style attributes is used to add style to on elements such as color font,size, and more
+
+HTML HEADING 
+HTML Heading are titles or subtitles that you want display on a web page 
+
+Bigest heading 
+Each HTML  heading has a  define size however you cannot specified the size for any heading  with the attributesthe css font-size 
+property
+
+HTML Pargraph
+The HTML  <p> elements defines a Pargraph
+
+A Pargraph always start on a new line and borwser automatically add some add some white space before and after a Pargraph
+
+HTML HORIZONTAL RULES
+The <hr> tag defines a  thermatic break in an HTML  page a  is aften most display horizantal RULES
+the <hr> elements is used to separate content in a html pages
+
+HTML LINE BREAKE 
+The HTML <br> elements defines a line  break 
+use <br> if you want a line break without starting a new Pargraph
+The <br>  tag  is on empty tag which comes that if has no end tag
+
+THE  HTML <pre> elements
+The HTML <pre> elements is performatted tex 
+the text inside a <per> elements is display in a fixed widthfont and it preseves both space and line break 
