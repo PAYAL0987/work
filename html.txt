@@ -11,3 +11,6 @@ HTML  describe the structurs of a web pages
 . Attributes provides addtitions informations about elements
 .Attributes are always specified in the the start tags
 . Attributes usually come in names value paris like name values
+
+THE src Attributes
+the <img> tag is used to emble an image in an HTML pages the arc attributes specified the path to the imges to be a display 
