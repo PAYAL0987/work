@@ -49,3 +49,61 @@ The <br>  tag  is on empty tag which comes that if has no end tag
 THE  HTML <pre> elements
 The HTML <pre> elements is performatted tex 
 the text inside a <per> elements is display in a fixed widthfont and it preseves both space and line break 
+
+HTML Style Attributes
+Setting the style of an HTML element can be the style attributes
+<tages name> style = " property : value";
+
+The property is a css property the value is a css value
+
+# Back Ground color
+The css background color defines the background color for an html element
+
+Text color
+the css property defines the color for an HTML elements
+
+fonts 
+The css font family property defines the font tags be used for an html element
+
+Text size 
+The css font property defines the text for an html element
+
+Text alignment
+the css text- align property define the horizantal text alignment for an html element
+
+HTML TEXT FORMATING 
+html contains sveral element for define text with a special meaning
+.<b> Bold text
+.<strong> Important text
+.<i> Ialic text 
+.<em> emphasized text
+.<mark> marked text
+.<small small text 
+.<del> deleted text
+.<ins> subscript text
+. <sup>  subscript text
+
+<b> element
+the html <b> element defines bold text without any extra important
+
+
+<storng> element
+this html <storng1> element defines text with storng important the content inside is typically display in bold 
+
+<i> element
+the element <i> tags element definea part text in an  alternate voice or mood or the content inside is typically display in italic
+note : the <i> tag often used to indicate a thermatic trem a phase form another language  a through a ship name 
+
+
+<em> element
+the html <em> element define emphasized text the content inside is typically in italic
+
+<sub> element
+the html sub element define subscript text subscript appears half a character below the  normaline and  is something in a small font
+subscript text can used for chemical formulas like 
+
+
+html colors 
+html colors are specified with perdefined color or with or RGB , HEX,HSL, RGBA OR HASLA value
+ 
+ background color you set the background color for html element 
