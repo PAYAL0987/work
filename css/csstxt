@@ -1,0 +1,129 @@
+Q1 WHAT is css?
+Css stand for cascading style Sheet
+
+Q2 What is the purpuse of css?
+. Css is the to style and format the appearence of wen page written  in HTML  AND XML 
+. If allow  web delopers to control apsect like layout colors fonts and speracing elements
+
+Q3 HOW do you link a css file an html document 
+link css to a HTML document the <link> elements within the <head> sections the HTML document
+<link rel="stylesheet" type="text/css" href="style.css">
+
+Q4 what is the syntax of a CSS?
+A CSS rule conints of a selectors and a declarations block 
+Selector{
+    property: vaule;
+    /* more properties and value */
+}
+
+what are different type of css to a web page
+their are 3 types of css
+1.lnkine style: directly within an html element 
+2.Internal style: Within a <style> element in the <head> sections of an html document
+3. External style : inked to html  document using  the <link> element
+
+HOW do you apply muitipal styles to a css single css elements
+Mutlipul style  can be applied to asingle element by separating ecah declarations with a semicolon within thee style attribute styles or within 
+Css rule
+selectors{
+    property1: value1;
+    property2: value2;
+}
+
+Q4 what is the type of css selectors
+1 universal selectors(*)
+selects all elements on the pages
+*{
+    property: value;
+}
+
+2.type selector
+selects all element of a specific type
+*{
+    property : value
+}
+
+3. class selectors 
+selects elements with a specific class attribute 
+.calssname{
+    property: value;
+}
+
+4.Id selecros(#)
+selects a single elements a specific id attributes
+#idname{
+    property: value;
+}
+
+5. Attribute selectors 
+select elememts based on the persence or value of an attribute
+input[type="text"] {
+    property: value;
+}
+
+6.Pseudeo-class 
+selects elements based on the on their special state
+a:hover{
+    property value;
+}
+
+pseudo-elements
+Selects specifics parts of an element content
+p::before{
+    content: "perfix";
+}
+
+8. desecendant selector (space)
+selects elements that a descendants of anther element
+div p {
+    porperty: vaule;
+}
+
+9. child selector(>)
+selects element that are direct childrem of another element
+div > p {
+    property: value;
+}
+
+10. Adjacent silbling selectors(+)
+selects the first element that immediately follows a specified elements and both element must have the same parent
+h2 + p{
+    property: value;
+}
+
+11. General silbling selectors(~)
+h2 ~ p {
+    property: value;
+}
+
+Q WHAT is a pseudeo-element?
+*/ make the first paragraph bold*/
+p:first-child{
+    font-weight: bold;
+}
+
+*/ change the color  of the last paragraph
+p:last-child{
+    color: gray
+}
+
+*/ change the backgound color of all input element those with type"text" */
+input:not([type="text"]){ 
+background-color: yellow;
+}
+
+*/ change the color of a link when hover it */
+a:hover{
+    color red;
+}
+*
+
+*/ add a bule border to an input element when it focus */
+input:focus{
+    border: 2px solid bule;
+}
+
+*/ change the color of the second child of a list item */
+li:nth-child(2) {
+    color: green;
+}
