@@ -127,3 +127,49 @@ input:focus{
 li:nth-child(2) {
     color: green;
 }
+
+Q How do you center an element vertical
+to center an element vertical can use use flexbox
+container{
+    display: flex;
+    align-items: center;
+}
+
+Q what is the box-sizing property?
+.the box-sizing property defines the total  width and height are calculated
+.with box-sizing : border-box; the padding and  border are included in the element total width and height
+ element {
+    box-sizing: border-box;
+ }
+
+ Q how do you created a rounded border 
+  use the border-redius property to created rounderd borders
+  element {
+    border-radius: 10px;
+  }
+
+  Q How do you mean created b border around an element?
+  .use the border-radius property to create rounded borders
+  element {
+    border : 2px solid black;
+  }
+
+  Q What are different values of the dispaly property?
+  .block - element take up the full width avalible and start on a new line 
+  .Inline - element only take up  as much width as necessary and do not start on a new line 
+  .inline-block behaves like inline element but can have a width and height 
+  .flex - tuns the element into a flex container 
+  .grid - turns the element into a grid   container  
+
+  TYPOGRAPHY
+  Q how do you changes the font of an element 
+  .text alignement can a controlled using the text-align property
+  .cover-background {
+    background-image: url('imagel.jpg');
+    background-size: cover;
+  }
+
+  .contain-background {
+    background-image: url(image2.jpg);
+    background-size: contain;
+  }
