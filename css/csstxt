@@ -173,3 +173,53 @@ Q what is the box-sizing property?
     background-image: url(image2.jpg);
     background-size: contain;
   }
+
+Q who do you change the color of the text?
+. text alignment can be controlled using the text-align property
+.cover-backgound {
+    background_image: url('image.jpg');
+    backgorund-size: cover;
+}
+
+.contain-background{
+    background-image: url('image2.jpg');
+    background-size: contain;
+}
+
+
+COLORS & BACKGROUND 
+Q How do you change the color of the text ?
+. Set the back gound color of an element using the background property
+Selector {
+    background-color: #ffcc00;
+}
+
+Q How do you set a background image?
+. set  a background  image the background-image property
+selector {
+    background-image: url('image.jpg');
+}
+
+Q HOW do you set the size a background image ?
+. TO Set the size of a background image use the background-size property in CSS 
+  Here are some one common ways to use it 
+  1. COVER: scales the backgound image to cover the entire element, possible cropping it to fit 
+  .Specifi-size-background {
+    background-image: url('image3.jpg');
+    background-size: 100px 100px; /* width height */
+  }
+
+  2. Contain : Scales the backgound images to be fully visibile within the element,maintaining its aspect ratio.
+  3.  Specific Size : set Specific dimensions for the background image using units like pixels percentage, or  other CSS length units.
+  4. Auto : maintains the original of the background image 
+  .auto-size-background{
+    background-image: url('image5.jpg');
+    background-size:auto;
+  }
+
+  Q Multipal background sizes : if you have background images. you can specify sizes for each one 
+  . mulitipal-backgrounds{
+    background-images: url('images6.jpg') url('images7.jpg');
+    background-size: 50% 50%, cover;
+    /* First image is 50% , second image cover the element */
+  }
