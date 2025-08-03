@@ -223,3 +223,80 @@ Q HOW do you set the size a background image ?
     background-size: 50% 50%, cover;
     /* First image is 50% , second image cover the element */
   }
+
+  Q HOw do you repeat a background images?
+  The repeations of a background image using the background-repeat property.
+  .This prevent the background image from repeating
+.other value include repeat, repeat-x and repeat-y
+selector {
+    background-repeat
+}
+
+Q what is the background-postions property?
+/* Example using keyword */
+.keyword-backgorund {
+    background-image: url('image.jpg');
+    backorund-postions: top right;
+}
+
+/* Example using length value */
+.length-background {
+    background-image url('image.jpg');
+    background-postions: 20px 30px; /* 20px form the  top*/
+}
+
+/* Example using percentage*/
+.percent-background {
+    background-image : url(image.jpg);
+    background-position: 75% 25%; /* 75 from the, form top */
+}
+
+/* example using multiple backgorund */
+.multiple-background {
+    background-image: url('image1.jpg'), url('image2.jpg');
+    background-position: left top, right bottom;
+}
+
+Q How do you creared a aradient background?
+.create a gradient background using the background property with a gradient funcions
+selector {
+    background: linear-gradient(to right, red, yellow);
+}
+
+Q How do you create a semi-transparent background?
+crated semi-transparent background usig the rgba() functions in the background-color property
+selector {
+ backgorund-color: rgba(0,0,0,0.5);
+}
+
+Q how do you create showdow effect?
+.Crated a ::shadow effect using the box-shadow property for element shadows or for text shodow
+box-shadow: h-offset v-offset blur spread color;
+.h-offset: The :horizontal offset of the shodow
+.v-offset: The vertical off set of the shodow 
+.blur(optional): the spread radius 
+. Color(:optional): The color of the ::shadow
+Selector {
+    box-showdow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+Q HOW do you change the opacity of an element?
+we can change the opacity of an element using the opactiy property
+Selector{
+    opacity: 0.5;
+}
+
+Q what is the animations-timing-functions property?
+.The animations-timing-functions property specifics the speed curve of the animations 
+. common values include linear ease ease-in ease-in out
+@keyframes example {
+    0%{backgorund-color: red; left: 0px; top: 0px}
+    50%{background-color; yellow left: 200px top : 0p;}
+    100%{background-color blue; left: 200px, top: 200px;}
+}
+.element {
+    positions relatives;
+    animation example 5s ease-in-out infinite;
+}
+
+ 
