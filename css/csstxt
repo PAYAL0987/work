@@ -299,4 +299,158 @@ Q what is the animations-timing-functions property?
     animation example 5s ease-in-out infinite;
 }
 
- 
+ Q What is the transform-origin property?
+ .the transform-origin property specifices the point around which a tranformations is appiled
+ .origin-example {
+    tansform-origin: top left;
+    transform: rotate(45deg);
+ }
+
+ Q HOW  do you apply multiple transform to an element?
+ .apply multiple tranform by chaning them together.
+ .multiple: transform{
+    transform: translate(50px, 100px) rotate(45deg) scale(1.5);
+ }
+
+ Q What are 3D transform, and how do you use them?
+ .3D transform allow you to mainpulate element in three-dimensinal space 
+ . Functions like roate, rotateY(), tanslateZ(); and scaleZ();
+ .rotated-example{
+    transform: rotate(45deg)
+    rotate(30deg);
+ }
+
+ Q What is the perspective property, and how is used ?
+ .The perspective property defines the perspections form which a 3D elements viewed.
+ .It gives depth to 3D transformed elements.
+ perspective-example {
+    perspective: 500ox;
+ }
+
+ .child-element {
+    tansform: rotateY(45deg);
+ }
+
+ Q WHAT is the background-visibility property?
+ .The backface-visibility property determines whether the back face of an element is visibile when it is when it is .rotated 
+ .backface-example {
+    transform: rotateY(180deg);
+    backface-visibility : hidden;
+ } 
+
+ Q HOW do you  define grid columns and rows ?
+. GRID the and columns and rows using the grid-template-columnsa and grid-template-rows properties
+ . these proprties sepecify the size and numbers of coloums in the grid 
+.container {
+    display : grid; 
+    grid-template-colums: 100px  20px;
+}
+
+Q What is the grid-template-columns property?
+. The grid-template-columns proprty defines the number and width of columns in the grid 
+. the width using unites like pixels(px), percentages(%), fractions(fr), or any other Css units 
+.container {
+    display: grid;
+    grid-template: 1fr, 2fr, 1fr;
+}
+
+Q What is the grid -template-rows property?
+. The grid-template-rows-property defines the number and hight of rows in the the grid.
+. simliar to grid-template-columns , can specfiy the high using varible unites.
+
+.container {
+    display : grid;
+    grid-template-rows: 100px 200px;
+}
+
+Q How do you create grid arease?
+.Grid aresa are define using the grid-template ares property.
+. area in areas in the grid and then assign the-area element to those using the grid-area property
+.container {
+    display: grid;
+    grid-template-area: "header header header"
+                          "sideber content content"
+                        " footer footer footer";
+   grid-template-columns: 1fr, 3fr, 1fr;
+   grid-template-rows: auto;
+}
+
+.header {
+    grid-area: haeder;
+}
+
+.sodeber {
+    grid-area: header;
+}
+
+.conter {
+    grid-area: content;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+Q what is the grid-gap property 
+.The grid-gap propert(now commonly) refferred to as gap deefines the spacing, between and columns in the grid.
+.container {
+    display; gird;
+    gap: 10px;
+}
+
+Q How do you align items in a grid?
+aling items in grid using  the following property: 
+.justify-items: Aligns items :horizontally within their gird area.
+align-tems : Aligns items :vertically within thier grid area
+place-items: A shorthad for setting both justify-items and align-items
+.container {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+Q How do you create a reponsive grid layout?
+.container {
+    display : grid;
+    grid-template-columns: repeat(auto-fit, minmax(100, 1fr));
+    gap: 10px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+RESPONSIVE DESIGN 
+Q What is responsive design ?
+.Responsive design is an apprach to web design that ensurse web pages render well on a variety of devices and window or screen sizes
+
+Q What is Media Queries?
+Media queries a CSS feature that allows  content rendering to adapt to different conditions such as screen size, resolutons, or orientations.
+@media only screen and (max-width 600px) {
+      body{
+        background-color: lightbule;
+      }
+}
+
+
+Q Explain how you can make images respaonvie using HTML and css. provide an example demonstrating differtent techniques such 
+as the srcset attribute HTML and CSS properties?
+. The Srcset attribute allows you to specfiy different images for different device width improving performance by serving most 
+appropriate images
+.in this example 
+* Srcset specifies allows different for images files various width (300, 768w, 1200w)
+* size defines the images display size based on the viewport width 
+* Src provides a fallback images for browsers that do not support  Srcset 
+<img 
+    srcset = "
+    small.jpg 300w,
+    medium.jpg 768w,
+    large.jpg 1200w"
+    sizes = "
+      (max-width: 600px) 300px,
+      (max-width: 1200px) 768;
+      1200px"
+      src = "default.jpg"
+      alt = " Responsive images">
