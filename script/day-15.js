@@ -21,3 +21,17 @@ const b = 20
 console.log(a);
  // console.log(b);
   // console.log(c);
+
+  functions  one() {
+    const username = "paya/;"
+
+    functions two(){
+      const website = "school"
+      console.log(website);
+     }
+         //console.log(website);
+
+         two()
+  }
+
+  one()
