@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html evtens</title>
+</head>
+<body style="background-color: #414141; color: #fff;">
+    <h2>Amazing images</h2>
+    <div>
+        
+        <ul id="images">
+            <li><img width="200px" id="cofee1" src="https://tse1.mm.bing.net/th/id/OIP.ylJBpFerob0v_qSuKJ1_CQHaE8?pid=Api&P=0&h=220" alt=""></li>
+               <li><img width="200px" id="cofee2" src="https://tse3.mm.bing.net/th/id/OIP.pxNzj6p1CkBilArRqyWTGwHaE8?pid=Api&P=0&h=220" alt=""></li>
+                  <li><img width="200px" id="cofee3" src="https://tse1.mm.bing.net/th/id/OIP.GQXxbImnDAklcjWPCge9PQHaE7?pid=Api&P=0&h=220" alt=""></li>
+                     <li><img width="200px" id="cofee4" src="https://tse2.mm.bing.net/th/id/OIP.KsPAfsmW1nvk0W7NYvG4AgHaEo?pid=Api&P=0&h=220" alt=""></li>
+                        <li><img width="200px" id="cofee5" src="https://images6.alphacoders.com/414/414413.jpg" alt=""></li>
+        </ul>
+</body>
+<script>
+   // document.getElementById('cofee1').onclick = functions(){
+       // alert("cofee1 clicked")
+   // }
+
+    // attachEvent()
+
+   //jQuery -on
+
+      // type, timestamp, defaultPrevented
+
+  // tartag , toElement, srcElement, currenttarget
+  // clientX, clientY, screenX, Screen Y
+  //altkey, ctrlkey, shiftkey, keyCode
+   document.getElementById('images').addEventListener('click', function(e){
+    //alert("cofee clicked again")
+    console.log("clicked inside the ul");
+   }, false)
+
+   document.getElementById('cofee').addEventListener('click', function(e){
+
+
+    console.log("cofee2 clicked");
+    e.stopPropagation()
+   }, false)
+
+   document.querySelector('image').addEventListener
+   ('click' , funstion(e) { 
+   console.log(e.target.parentNode);
+   let removeIt = e.target.parentNode
+   removeIt.remove()
+   removeIt.parentNode.removeChild(removeId)
+)}
+</script>
+</html>
