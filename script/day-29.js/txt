@@ -1,0 +1,19 @@
+Async javaScript fundamentals
+----------------------------------------------------
+
+javaScript
+            Synchornous
+            Single thread
+
+Exeutions Control 
+           execute one line of code at a time
+           console.log-1
+           console.log -2
+
+           CALL STACK      MEMIERY HEAP
+
+Block code              vs       non Blocking code 
+Block the flow of program         Does not code execution
+Read file Sync                        Read file Async
+
+
