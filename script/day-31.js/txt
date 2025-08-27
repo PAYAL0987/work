@@ -1,0 +1,9 @@
+Promise 
+the Promise object represent the eventual compeietion for (or failure) of an asynchore opertion and its rosting value
+
+to learn about the way Promise work and you can them ,use we adivise to read using Promise first
+
+A Promise is in one these states 
+.panding.inital..nether fulfilled nor rejected
+.fulfilled.meaning.that opertion was completed successfull 
+.rejected.meaning that opertion failed
