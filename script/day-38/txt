@@ -1,0 +1,6 @@
+// Closurae
+
+
+A closure is the combination of a function bundled together(enclosed) with References to its surrounding to its surroundin StaticRang
+(the lexical environment).in oher words a sure gives you access to an outer function's scope form an ineer function .in JavaScript, closure are 
+create, at function createion time
